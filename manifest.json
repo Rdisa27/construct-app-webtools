@@ -1,0 +1,24 @@
+{
+  "$schema": "https://registry.construct.computer/schemas/manifest.json",
+  "name": "WebTools Browser",
+  "description": "Browser automation toolkit — navigate, screenshot, execute JavaScript, extract elements, get source, DevTools, and scrape web pages using Browserless.",
+  "author": {
+    "name": "ARamiro Gonsalez",
+    "url": "https://github.com/aramirogonsalez"
+  },
+  "owners": ["aramirogonsalez"],
+  "icon": "ui/icon.png",
+  "categories": ["developer-tools", "utilities"],
+  "tags": ["browser", "automation", "screenshot", "scraping", "devtools", "web", "browserless"],
+  "ui": {
+    "entry": "ui/index.html",
+    "width": 1200,
+    "height": 800
+  },
+  "permissions": {
+    "storage": "64KB",
+    "uses": {
+      "tools": []
+    }
+  }
+}
